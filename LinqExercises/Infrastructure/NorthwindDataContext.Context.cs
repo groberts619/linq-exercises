@@ -24,7 +24,7 @@ namespace LinqExercises.Infrastructure
         {
             throw new UnintentionalCodeFirstException();
         }
-    
+
         public virtual DbSet<Category> Categories { get; set; }
         public virtual DbSet<CustomerDemographic> CustomerDemographics { get; set; }
         public virtual DbSet<Customer> Customers { get; set; }
